@@ -1,0 +1,37 @@
+{
+  "applications": {
+    "gecko": {
+      "id": "toggleInline@dillinger",
+      "strict_min_version": "102.0",
+      "strict_max_version": "124.*"
+    }
+  },
+  "manifest_version": 2,
+  "name": "Toggle Inline",
+  "description": "Adds a Toggle Inline button",
+  "homepage_url": "https://addons.thunderbird.net/en-US/thunderbird/addon/toggle-inline/",
+  "version": "1.4",
+  "message_display_action": {
+    "default_title": "Toggle Inline",
+    "default_label": "Inline",
+    "default_icon": "toggleInline1.png"
+  },
+  "icons": {
+    "32": "toggleInline.png"
+  },
+  "background": {
+    "scripts": [
+      "toggleInline.js"
+    ]
+  },
+  "experiment_apis": {
+    "LegacyPrefs": {
+      "schema": "api/LegacyPrefs/schema.json",
+      "parent": {
+        "scopes": ["addon_parent"],
+        "paths": [["LegacyPrefs"]],
+        "script": "api/LegacyPrefs/implementation.js"
+      }
+    }
+  }
+}
