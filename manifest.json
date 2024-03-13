@@ -24,6 +24,14 @@
       "toggleInline.js"
     ]
   },
+  "commands": {
+    "_execute_message_display_action": {
+      "suggested_key": {
+        "default": "Alt+I"
+      },
+      "description": "Toggle viewing attachments inline"
+    }
+  },
   "experiment_apis": {
     "LegacyPrefs": {
       "schema": "api/LegacyPrefs/schema.json",
