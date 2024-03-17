@@ -5,7 +5,6 @@ Moved the button to the header toolbar.
 Removed forced reloading.
 Added keyboard shortcut, default is Alt+I.
 Set minimum version to Thunderbird 102.0.
-Unset maximum version.
 
 1.3
 Set minimum version to Thunderbird 91.0.
