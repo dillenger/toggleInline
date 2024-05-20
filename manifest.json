@@ -1,9 +1,9 @@
 {
-  "applications": {
+  "browser_specific_settings": {
     "gecko": {
       "id": "toggleInline@dillinger",
       "strict_min_version": "102.0",
-      "strict_max_version": "127.*"
+      "strict_max_version": "128.*"
     }
   },
   "manifest_version": 2,
