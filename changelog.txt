@@ -1,5 +1,8 @@
 Changelog for Toggle Inline
 
+1.5
+ESMified the add-on.
+
 1.4
 Moved the button to the header toolbar.
 Removed forced reloading.
