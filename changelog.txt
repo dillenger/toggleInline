@@ -2,6 +2,8 @@ Changelog for Toggle Inline
 
 1.5
 ESMified the add-on.
+Set minimum version to Thunderbird 115.0.
+Set maximum version to Thunderbird 136.0.
 
 1.4
 Moved the button to the header toolbar.
